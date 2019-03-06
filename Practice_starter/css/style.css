@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display');
+
+*{
+margin: 0;
+padding:0;
+}
+
+body {
+  font-family: "open Sans", serif;
+}
+
+h1 {
+  color:#003bde;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "open Sans", serif;
+}
+
+nav {
+  padding: 15px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #051033;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+
+}
+
+button {
+  background-color: #0000FF;
+  color: #FFFFFF;
+}
+
+nav li {
+  margin-left: 15px;
+}
+
+header {
+  display: flex;
+}
+
+header h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+}
+
+section {
+  text-align: center;
+  padding: 90px 60px;
+}
+
+section h3 {j
+  font-size: 8px;
+  letter-spacing: .5px;
+  color: #051033;
+}
+
+section p {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+
+.btn {
+  color: #003bde;
+  border: 1px solid white;
+  font-sizeL: 18px;
+  letter-spacing: .3px;
+  line-height: 18px;
+  border-radius: 3px;
+  background-color: white;
+  padding: 15px 30px;
+  margin: 30px 0;
+}
+
+#left-col{
+  background-image: url(https://images.unsplash.com/photo-1551430957-10dbe76ddb34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=932&q=80);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 325px;
+  padding: 100px 60px;
+  width: 50%;
+}
+
+#right-col{
+  background-image: url(https://images.unsplash.com/photo-1551189901-41e6842eb242?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 325px;
+  padding: 100px 60px;
+  width: 50%;
+}
